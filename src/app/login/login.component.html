@@ -1,0 +1,9 @@
+<div class="card" style="width: 20rem;">
+    <h2>Admin login</h2>
+    <mat-form-field appearance="fill">
+        <mat-label>Enter Password</mat-label>
+        <input matInput name="adminPassword" [(ngModel)]="adminPassword" type="password" placeholder="Password" >
+</mat-form-field>
+<button mat-button (click)="validateAdmin()" mat-stroked-button  class="button">Submit</button><br>
+<h3>If you are not a Admin, <a  routerLink="/home">click here</a></h3>    
+</div>

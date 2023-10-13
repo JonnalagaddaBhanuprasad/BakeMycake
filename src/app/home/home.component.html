@@ -1,0 +1,22 @@
+
+<div class="home">
+<app-search  (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+
+<app-filter  (filterTextChanged)="filterCake($event)" class="filter"></app-filter>
+
+</div>  
+<app-cakes *ngFor = "let cake of cakes" [cake] = "cake"></app-cakes>
+
+<div class="footer-icons" id="foot">
+  <hr>
+  <div class="copy"><h5>&copy;2022 - 2023 Just bake My Cake.in  All Rights Reserved </h5>
+      <h5 class="address">
+          Company Name: Just Bake My cake Online Solutions Private Limited | Regd. Office Address: 3rd Floor, PLOT. NO # 141/P2, EPIP Industrial Area Whitefield,
+  Sonnenahalli Village, Bangalore - 560066 | Contact no. +91 - 8297933908 | E-mail: Bakemycake.in
+      </h5>
+  <h5>Connect with Us:
+  <img mat-card-image src="../../assets/images/facebook.png">
+  <img mat-card-image src="../../assets/images/instagram.png">
+  <img mat-card-image src="../../assets/images/twitter.png"></h5></div>
+  
+</div>

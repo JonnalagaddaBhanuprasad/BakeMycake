@@ -1,0 +1,47 @@
+#image-viewer {
+    margin: 40px auto;
+    width: 20%;
+}
+
+#image-viewer img {
+    height: 400px;
+    width: 100%;
+}
+
+.cart-icon{
+    color: black;
+}
+.img img{
+    height: 15em;
+    width: 17.8em;
+}
+.cake-card{
+    border: 2px solid whitesmoke;
+    width: 18em;
+    height: 25.7em;
+    color: black;
+    display: inline-flex;
+    justify-content:space-between;
+    margin: 1.5em;
+    background-color: antiquewhite;
+}
+mat-card-subtitle{
+    color: black;
+}
+.cake{
+    font-size: 15px;
+}
+.price{
+    font-size: 10px;
+}
+h5{
+    font-size: 10px;
+}
+.order{
+    background-color: gray;
+    float:right;
+}
+h4{
+display: flex;
+margin-bottom: 2px;
+}

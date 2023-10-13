@@ -1,0 +1,20 @@
+ <mat-card class="cake-card">
+    <span class="img">
+    <img mat-card-image src="../../assets/images/{{cake.imgUrl}}.jpg">
+</span>
+    <mat-card-header>
+        <mat-card-title class="cake">{{cake.name}} </mat-card-title>
+        <mat-card-subtitle class="price">{{cake.unit}}  {{cake.price}}.00</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <h5> <img src="../../assets/images/rating.jpg" alt="rating">
+        Reviews : {{cake.reviews}}</h5>
+    
+    <a  routerLink="/order/{{cake.id}}"><mat-icon class="cart-icon"  matTooltip="add to cart">shopping_cart</mat-icon>
+     <!-- <img [src]="image.imgUrl" alt=""> -->
+    </a>
+    <a  mat-stroked-button class="order" routerLink="/order/{{cake.id}}">Buy</a>
+    </mat-card-content>
+   
+</mat-card>

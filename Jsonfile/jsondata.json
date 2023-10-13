@@ -1,0 +1,599 @@
+{
+  "Cake": [
+    {
+      "id": " 1",
+      "name": "Cookies Cream Cake",
+      "price": "500",
+      "unit": "Rs.",
+      "imgUrl": "Cookies Cream Cake",
+      "rating": "5",
+      "reviews": "400",
+      "category": "cakes"
+    },
+    {
+      "id": " 2",
+      "name": "Easter Cupcakes",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Easter Cupcakes",
+      "rating": "5",
+      "reviews": "300",
+      "category": "CupCakes"
+    },
+    {
+      "id": " 3",
+      "name": "Chocolate Blueberries Cake",
+      "price": "200",
+      "unit": "Rs.",
+      "imgUrl": "Chocolate Blueberries Cake",
+      "rating": "5",
+      "reviews": "300",
+      "category": "cakes"
+    },
+    {
+      "id": " 4",
+      "name": "Chocolate Summer Berries",
+      "price": "900",
+      "unit": "Rs.",
+      "imgUrl": "Chocolate Summer Berries",
+      "rating": "5",
+      "reviews": "500",
+      "category": "cakes"
+    },
+    {
+      "id": " 5",
+      "name": "Cherry Jelly Cheesecake",
+      "price": "1200",
+      "unit": "Rs.",
+      "imgUrl": "Cherry Jelly Cheesecake",
+      "rating": "5",
+      "reviews": "1300",
+      "category": "cakes"
+    },
+    {
+      "id": " 6",
+      "name": "Monster Theme Cake",
+      "price": "1000",
+      "unit": "Rs.",
+      "imgUrl": "Monster Theme Cake",
+      "rating": "3",
+      "reviews": "300",
+      "category": "cakes"
+    },
+    {
+      "id": " 7",
+      "name": "Pumpkin Spice Cupcakes",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Pumpkin Spice Cupcakes",
+      "rating": "5",
+      "reviews": "300",
+      "category": "CupCakes"
+    },
+    {
+      "id": " 8",
+      "name": "Chocolate Bonbons",
+      "price": "200",
+      "unit": "Rs.",
+      "imgUrl": "Chocolate Bonbons",
+      "rating": "4",
+      "reviews": "220",
+      "category": "chocolateCakes"
+    },
+    {
+      "id": " 9",
+      "name": "Berries Summer Cupcakes",
+      "price": "200",
+      "unit": "Rs.",
+      "imgUrl": "Berries Summer Cupcakes",
+      "rating": "4",
+      "reviews": "230",
+      "category": "CupCakes"
+    },
+    {
+      "id": " 10",
+      "name": "Fruit Cake",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Fruit Cake",
+      "rating": "4",
+      "reviews": "190",
+      "category": "cakes"
+    },
+    {
+      "id": " 11",
+      "name": "Isometric chocolate brownies",
+      "price": "200",
+      "unit": "Rs.",
+      "imgUrl": "Isometric chocolate brownies",
+      "rating": "4",
+      "reviews": "120",
+      "category": "Cookies"
+    },
+    {
+      "id": " 12",
+      "name": "Brownies Different Flavor",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Classic Cheesecake",
+      "rating": "4",
+      "reviews": "220",
+      "category": "cakes"
+    },
+    {
+      "id": " 13",
+      "name": "Muffin Ghost",
+      "price": "200",
+      "unit": "Rs.",
+      "imgUrl": "Muffin Ghost",
+      "rating": "4",
+      "reviews": "220",
+      "category": "CupCakes"
+    },
+    {
+      "id": " 14",
+      "name": "Muffin Devil Horns",
+      "price": "400",
+      "unit": "Rs.",
+      "imgUrl": "Muffin Devil Horns",
+      "rating": "4",
+      "reviews": "130",
+      "category": "Cupcakes"
+    },
+    {
+      "id": " 15",
+      "name": "Classic Cheesecake",
+      "price": "260",
+      "unit": "Rs.",
+      "imgUrl": "Classic Cheesecake",
+      "rating": "4",
+      "reviews": "120",
+      "category": "cakes"
+    },
+    {
+      "id": " 16",
+      "name": "Chocolate Cookies",
+      "price": "20",
+      "unit": "Rs.",
+      "imgUrl": "Chocolate Cookies",
+      "rating": "4",
+      "reviews": "20",
+      "category": "Cookies"
+    },
+    {
+      "id": " 17",
+      "name": "Butter Cookies",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Butter Cookies",
+      "rating": "4",
+      "reviews": "20",
+      "category": "Cookies"
+    },
+    {
+      "id": " 18",
+      "name": "Chocolate Bonbons",
+      "price": "100",
+      "unit": "Rs.",
+      "imgUrl": "Chocolate Bonbons",
+      "rating": "8",
+      "reviews": "9",
+      "category": "chocolateCake"
+    }
+  ],
+  "Orderdetail": [
+    {
+      "dateOfOrder": "2023-04-23",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 1
+    },
+    {
+      "dateOfOrder": "2023-11-13",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "0701396905",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 2
+    },
+    {
+      "customerPhone": "-70139",
+      "dateOfOrder": "2222-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 1,
+      "id": 3
+    },
+    {
+      "dateOfOrder": "0200-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 4
+    },
+    {
+      "dateOfOrder": "0234-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 5
+    },
+    {
+      "dateOfOrder": "2433-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 34,
+      "id": 6
+    },
+    {
+      "NoofItems": 23,
+      "dateOfOrder": "42023-03-23",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "id": 7
+    },
+    {
+      "dateOfOrder": "1111-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 3,
+      "id": 8
+    },
+    {
+      "dateOfOrder": "2023-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 3,
+      "id": 9
+    },
+    {
+      "dateOfOrder": "2000-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 9,
+      "id": 10
+    },
+    {
+      "dateOfOrder": "4444-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 4,
+      "id": 11
+    },
+    {
+      "dateOfOrder": "3333-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 12
+    },
+    {
+      "dateOfOrder": "1231-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 5,
+      "id": 13
+    },
+    {
+      "dateOfOrder": "2222-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 7,
+      "id": 14
+    },
+    {
+      "dateOfOrder": "2000-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 15
+    },
+    {
+      "dateOfOrder": "1111-11-11",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 4,
+      "id": 16
+    },
+    {
+      "dateOfOrder": "45789-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 3,
+      "id": 17
+    },
+    {
+      "dateOfOrder": "2433-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 18
+    },
+    {
+      "dateOfOrder": "2000-11-28",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "id": 19
+    },
+    {
+      "dateOfOrder": "1111-11-11",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "TotalBill": 6,
+      "id": 20
+    },
+    {
+      "dateOfOrder": "4569-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 4,
+      "TotalBill": 2,
+      "id": 21
+    },
+    {
+      "dateOfOrder": "2222-12-11",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 5,
+      "TotalBill": 6,
+      "id": 22
+    },
+    {
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "dateOfOrder": "2222-02-11",
+      "NoofItems": 2,
+      "TotalBill": 2,
+      "id": 23
+    },
+    {
+      "dateOfOrder": "4567-03-12",
+      "customerName": "bhanu",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 3,
+      "TotalBill": 4,
+      "id": 24
+    },
+    {
+      "NoofItems": 2,
+      "dateOfOrder": "45790-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "TotalBill": 7,
+      "id": 25
+    },
+    {
+      "dateOfOrder": "0232-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "07013969057",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 2,
+      "TotalBill": 200,
+      "id": 26
+    },
+    {
+      "dateOfOrder": "2000-12-11",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "08297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "NoofItems": 7,
+      "TotalBill": 700,
+      "id": 27
+    },
+    {
+      "NoofItems": 8,
+      "TotalBill": 800,
+      "dateOfOrder": "1222-11-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "orderName": "1-141/A,chikkavaram",
+      "id": 28
+    },
+    {
+      "dateOfOrder": "2000-02-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 29
+    },
+    {
+      "dateOfOrder": "1222-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 2,
+      "TotalBill": 200,
+      "id": 30
+    },
+    {
+      "dateOfOrder": "2000-12-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 31
+    },
+    {
+      "dateOfOrder": "2023-02-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "9494757835",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 3,
+      "TotalBill": 300,
+      "id": 32
+    },
+    {
+      "dateOfOrder": "2023-09-04",
+      "customerName": "SANDHYA SRI ANGARA",
+      "customerEmail": "sandhaysri086@gmail.com",
+      "customerPhone": "7013969058",
+      "street": "old Airpot",
+      "city": "Hyderabad",
+      "state": "telengana",
+      "pinCode": "521103",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 33
+    },
+    {
+      "dateOfOrder": "0443-03-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 33,
+      "TotalBill": 3300,
+      "id": 34
+    },
+    {
+      "dateOfOrder": "2000-02-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 35
+    },
+    {
+      "dateOfOrder": "2023-08-02",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 36
+    },
+    {
+      "dateOfOrder": "3444-02-12",
+      "customerName": "BHANU PRASAD JONNALAGADDA",
+      "customerEmail": "prasadbhan075@gmail.com",
+      "customerPhone": "8297933908",
+      "street": "1-141/A,chikkavaram",
+      "city": "vijayawada",
+      "state": "Andhra prasdesh",
+      "pinCode": "521101",
+      "NoofItems": 2,
+      "TotalBill": 200,
+      "id": 37
+    },
+    {
+      "dateOfOrder": "2024-01-12",
+      "customerName": "chennarao",
+      "customerEmail": "chennarao@gmail.com",
+      "customerPhone": "8247867587",
+      "street": "goppalapura",
+      "city": "maylavaram",
+      "state": "andhra pradesh",
+      "pinCode": "789594",
+      "NoofItems": 9,
+      "TotalBill": 900,
+      "id": 38
+    },
+    {
+      "dateOfOrder": "2000-02-12",
+      "customerName": "Ganesh",
+      "customerEmail": "ganesh123@gmmail.com",
+      "customerPhone": "7013969057",
+      "street": "bgfdnklm;la",
+      "city": "bhanu",
+      "state": "ap",
+      "pinCode": "521101",
+      "NoofItems": 9,
+      "TotalBill": 4500,
+      "id": 39
+    },
+    {
+      "dateOfOrder": "0003-03-12",
+      "customerName": "ravindra ",
+      "customerEmail": "prasadbhanu075@gmail.com",
+      "customerPhone": "7013969057",
+      "street": "chikkavaram",
+      "city": "vijaywada",
+      "state": "ap",
+      "pinCode": "521101",
+      "NoofItems": 2,
+      "TotalBill": 200,
+      "id": 40
+    }
+  ]
+}

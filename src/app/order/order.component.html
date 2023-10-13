@@ -1,0 +1,120 @@
+<section class="cake-content">
+    <div class="col-lg-6">
+    <form class="cake-request" [formGroup]="orderForm">
+         <h1 id="header1"> Fill The Order Details</h1>
+        <mat-form-field appearance="fill" class="col-12 col-md-6">
+            <mat-label>Select Date</mat-label>
+            <input matInput type="date" required placeholder="Date" name="dateOfOrder"[(ngModel)] = "cakeReq.dateOfOrder" formControlName="dateOfOrder" min="mindate">
+            <mat-error *ngIf="dateOfOrder?.errors?.['required']">
+                Date is required
+            </mat-error>
+            <mat-error *ngIf="dateOfOrder?.errors?.['required']">
+                Invalid date please select date in the future
+            </mat-error>
+            
+        </mat-form-field><br>
+         
+      
+
+        <mat-form-field appearance="fill"  class="col-12 col-md-6">
+            <mat-label>Name</mat-label>
+            <input matInput type="text"required placeholder="Name" name="customerName" formControlName="customerName" [(ngModel)] = "cakeReq.customerName">
+            <mat-error *ngIf="customerName?.errors?.['pattern']">
+                Name should be in letters.
+            </mat-error>
+            <mat-error *ngIf="customerName?.errors?.['required']">
+                Name is required.                                                                                                                                   
+            </mat-error>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill"  class="col-12 col-md-6">
+            <mat-label>Email</mat-label>
+            <input matInput type="email"required placeholder="Email" name="customerEmail" formControlName="customerEmail" [(ngModel)] = "cakeReq.customerEmail">
+            <mat-error *ngIf="customerEmail?.errors?.['required']">
+                Email is required.
+            </mat-error>
+            <mat-error *ngIf="customerEmail?.errors?.['pattern']">
+            enter a valid email.
+            </mat-error>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill"  class="col-12 col-md-6">
+            <mat-label>Phone</mat-label>
+            <input matInput type="phone"required id="customerPhone" placeholder="Phone" name="customerPhone" [(ngModel)] = "cakeReq.customerPhone" formControlName="customerPhone">
+            <mat-error *ngIf="customerPhone?.errors?.['required']">
+            Phone is required.
+            </mat-error>
+            <mat-error *ngIf="customerPhone?.errors?.['pattern']">
+                Phone should have min 10 digit number, with number should start from 7/8/9.
+            </mat-error>
+        </mat-form-field><br>
+       
+        <div formGroupName="address">
+           
+            <mat-form-field appearance="fill"  class="col-12 col-md-6">
+                <input matInput type="text" placeholder="Street" formControlName="street" [(ngModel)]="cakeReq.street">
+                <mat-error *ngIf="orderForm.controls.address.controls.street.errors?.['pattern']">
+                    street should be in letters.
+                </mat-error>
+                <mat-error *ngIf="orderForm.controls.address.controls.street.errors?.['required']">
+                    Street is required.
+                </mat-error>
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill"  class="col-12 col-md-6">
+                <input matInput type="text"required placeholder="City" formControlName="city" [(ngModel)]="cakeReq.city">
+                <mat-error *ngIf="orderForm.controls.address.controls.city.errors?.['pattern']">
+                    City should be in letters.
+                </mat-error>
+                <mat-error *ngIf="orderForm.controls.address.controls.city.errors?.['required']">
+                    City is required.
+                </mat-error>
+            </mat-form-field><br>
+            <mat-form-field appearance="fill"  class="col-12 col-md-6">
+                <input matInput type="text" required ="State" placeholder="State" formControlName="state" [(ngModel)]="cakeReq.state">
+                <mat-error *ngIf="orderForm.controls.address.controls.state.errors?.['pattern']">
+                    State should be in letters
+                </mat-error>
+                <mat-error *ngIf="orderForm.controls.address.controls.state.errors?.['required']">
+                    State is required.
+                </mat-error>
+            </mat-form-field><br>
+            <mat-form-field appearance="fill"  class="col-12 col-md-6">
+                <input matInput type="text"  required placeholder="pin Code" formControlName="pinCode" [(ngModel)]="cakeReq.pinCode">
+                <mat-error *ngIf="orderForm.controls.address.controls.pinCode.errors?.['required']">
+                    pinCode is required.
+                </mat-error>
+                <mat-error *ngIf="orderForm.controls.address.controls.pinCode.errors?.['pattern']">
+                   pin code 5 digits are rquired 
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <mat-form-field appearance="fill"  class="col-12 col-md-6">
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number" min="1" max="9999999999999"required placeholder="Qty" name="NoofItems" id="NoofItems" formControlName="NoofItems" [(ngModel)] ="cakeReq.NoofItems" (input)="calculateTotalBill()">
+            <mat-error *ngIf="NoofItems?.errors?.['pattern']">
+                Quantity should not be negative 
+             </mat-error>
+            <mat-error *ngIf="NoofItems?.errors?.['required']">
+                Quantity is required.
+                </mat-error>
+        </mat-form-field>&nbsp;
+        <mat-form-field appearance="fill">
+            <mat-label>TotalBill</mat-label>
+            <input matInput type="number" required placeholder="Total Bill" name="TotalBill"  id="TotalBill"  [(ngModel)] = "cakeReq.TotalBill"  [ngModelOptions]="{standalone: true}" readonly>
+        </mat-form-field>&nbsp;
+        <button mat-flat-button color="primary" [disabled]="!orderForm.valid"  (click)="cakeRequest()">Submit Order</button><br>
+    </form></div>
+    <div class="cake-detail">
+        <h1>{{cake?.name}}</h1>
+        <img src="../../assets/images/{{cake?.imgUrl}}.jpg" alt="image">
+        <hr>
+        <h2>{{cake?.name}} Rs. {{cake?.price}}</h2>
+        <h3><mat-icon >star</mat-icon><mat-icon>star</mat-icon><mat-icon>star</mat-icon><mat-icon>star</mat-icon><mat-icon>star</mat-icon> </h3>
+        <h2> {{cake?.reviews}} Reviews</h2>
+        <div *ngIf="this.cakeReq.TotalBill ===this.cakeReq.TotalBill">
+            <p>Total Bill: {{this.cakeReq.TotalBill }}</p>
+          </div>
+     
+    </div>
+ 
+</section>

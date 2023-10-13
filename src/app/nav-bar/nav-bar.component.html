@@ -1,0 +1,39 @@
+<mat-toolbar class="navbar">
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button >
+        <!-- (click)="drawer.toggle()" -->
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    <!-- the anchor tags below need to be modified with routerLink -->
+    <a routerLink="/" id="title">{{title}}</a>
+    <mat-icon>cakes</mat-icon>
+    <div class="a">
+    <a routerLink="/home" id="home" mat-stroked-button>
+        <mat-icon>home</mat-icon>
+    </a>
+    
+    <a routerLink="/cakes"  mat-stroked-button>
+        <mat-icon>cake</mat-icon>
+    </a>
+    <a routerLink="/login" id="login" mat-stroked-button>
+        <mat-icon>login</mat-icon>
+    </a>
+    
+</div>
+   
+</mat-toolbar>
+<!-- <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="'navigation'"
+        [mode]="'push'" 
+        [opened]="false">
+        <mat-nav-list id="nav-list">
+             <a mat-list-item href="#"><mat-icon>account_circle</mat-icon>User </a>
+             <a mat-list-item href="#"><mat-icon>cake</mat-icon>cake </a>
+            <a mat-list-item href="#"><mat-icon>logout</mat-icon>Logout</a> 
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        
+    </mat-sidenav-content>
+</mat-sidenav-container> -->
+
+<router-outlet></router-outlet>

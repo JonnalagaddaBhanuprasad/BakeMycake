@@ -1,0 +1,14 @@
+.card{
+    justify-content: center;
+    padding-left: 20px;
+    margin-top:10% ;
+    margin-left: 33%;
+    background-color:white;
+}
+h2,h3{
+    color:black
+}
+
+.button{
+    color: black;
+}
